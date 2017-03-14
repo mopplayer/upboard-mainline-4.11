@@ -1,0 +1,29 @@
+The Kernel version 4.11-rc2 was based on Ubuntu mainline build to have a better experience.
+git://git.launchpad.net/~ubuntu-kernel-test/ubuntu/+source/linux/+git/mainline-crack
+
+Merge official yocto version, fix some mismatchs of structure members, and a configuartion file.
+Fell free to test and play on UP Board.
+
+This repository colude be cooperative. Any comments and suggestions will be appreciated.
+
+Testing OS on UP Board(4G/64G):
+Ubuntu 16.04.2 64Bit LTS 
+GCC version 5.4.0 20160609
+MRAA Library
+
+Steps:
+1. Install Ubuntu 16.04.2 ISO from Ubuntu offical website, make sure that installation is only in UEFI boot mode.
+2. In the terminal, sudo apt-get update
+3. sudo apt-get dist-upgrade
+4. sudo apt-get install git
+5. git clone this repository.
+6. cd in
+7. make mrproper
+8. make upboard_defconfig
+9. make -j4
+10. sudo make modules_install
+11. sudo make firmware_install
+12. sudo make headers_install
+13. sudo make install
+14. reboot and play, you could edit your grup menu to roll back original kernel.
+
