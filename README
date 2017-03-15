@@ -4,7 +4,7 @@ git://git.launchpad.net/~ubuntu-kernel-test/ubuntu/+source/linux/+git/mainline-c
 Merge official yocto version, fix some mismatchs of structure members, and a configuration file.
 Fell free to test and play on UP Board.
 
-This repository colude be cooperative. Any comments and suggestions will be appreciated.
+This repository could be cooperative. Any comments and suggestions will be appreciated.
 
 Testing OS on UP Board(4G/64G):
 Ubuntu 16.04.2 64Bit LTS 
