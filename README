@@ -25,5 +25,15 @@ Steps:
 11. sudo make firmware_install
 12. sudo make headers_install
 13. sudo make install
-14. reboot and play, you could edit your grup menu to roll back original kernel.
+
+p.s. 
+If you see warnings as follows:
+W: Possible missing firmware /lib/firmware/i915/kbl_dmc_ver1_01.bin for module i915
+W: Possible missing firmware /lib/firmware/i915/kbl_guc_ver9_14.bin for module i915
+W: Possible missing firmware /lib/firmware/i915/bxt_guc_ver8_7.bin for module i915
+
+Download and install firmwares, but assume that CherryTrail is not involved in the firmwares.
+https://01.org/linuxgraphics/downloads/firmware
+
+14. reboot and play, you could edit your grub menu to roll back original kernel.
 
