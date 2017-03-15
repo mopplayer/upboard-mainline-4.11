@@ -2,7 +2,7 @@ The Kernel version 4.11-rc2 was based on Ubuntu mainline build to have a better 
 git://git.launchpad.net/~ubuntu-kernel-test/ubuntu/+source/linux/+git/mainline-crack
 
 Merge official yocto version, fix some mismatchs of structure members, and a configuration file.
-Fell free to test and play on UP Board.
+Feel free to test and play on UP Board.
 
 This repository could be cooperative. Any comments and suggestions will be appreciated.
 
