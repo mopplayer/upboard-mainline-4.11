@@ -12,7 +12,7 @@ GCC version 5.4.0 20160609
 MRAA Library
 
 Steps:
-1. Install Ubuntu 16.04.2 ISO from Ubuntu offical website, make sure that installation is only in UEFI boot mode.
+1. Install Ubuntu 16.04.2 ISO from Ubuntu official website, make sure that installation is only in UEFI boot mode.
 2. In the terminal, sudo apt-get update
 3. sudo apt-get dist-upgrade
 4. sudo apt-get install git
