@@ -37,3 +37,8 @@ https://01.org/linuxgraphics/downloads/firmware
 
 14. reboot and play, you could edit your grub menu to roll back original kernel.
 
+Package:
+Prebuilt Linux kernel and modules by a DEB file, it is easy to install.
+
+
+
